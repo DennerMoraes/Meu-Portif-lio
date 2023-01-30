@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio De Denner Moraes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8454d027ac.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="center">
+            <ul class="navbar-nav">
+                <li class="logo">
+                    <a href="#" class="nav-link">
+                        <span class="link-text">Denner</span>
+                        <i class="fa-solid fa-angles-right"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pg-sobremim">
+                        <i class="fa-sharp fa-solid fa-user-tie"></i>
+                        <span class="link-text">Sobre Mim</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pg-habilidades">
+                        <i class="fa-solid fa-book"></i>
+                        <span class="link-text">Habilidades</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pg-projetos">
+                        <i class="fa-solid fa-square-minus"></i>
+                        <span class="link-text">Projetos</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="pg-inicial">
+        <div class="tx-inicial">
+            <h3>Sou <span>Denner Moraes</span></h3>
+            <h2>Desenvolvidor Front-End</h2>
+        </div>
+    </section>
+    <section class="pg-sobremim">
+        <h2 id="pg-sobremim" >Sobre Mim</h2>
+        
+        <div class="cont-sobremim">
+            <img class="img-eu" src="img/eu.jpg" alt="">
+            <p >Me chamo Denner Moraes, Gosto muito da área de tecnologia, pela qual me interessei no meu curso em técnico de informática do ensino médio principalmente pelo desenvolvimento front - end no que me aprofundei adquirindo conhecimentos em <span> HTML, CSS, JavaScript, PHP.</span></p>
+        </div>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/denner-moraes-87676b25a/" target="_blank">
+                <span></span>
+                <i class="fa-brands fa-linkedin"></i>
+                Linkedin
+            </a>
+
+            <a href="https://github.com/DennerMoraes" target="_blank">
+                <span></span>
+                <i class="fa-brands fa-square-github"></i>
+                GitHub
+            </a>
+
+            <a href="link/DennerMoraesCV.pdf" download>
+                <span></span>
+                <i class="fa-solid fa-file-lines"></i>
+                Curriculo
+            </a>
+        </div>
+    </section>
+    <section class="pg-habilidades">
+        <h2 id="pg-habilidades" >Habilidades</h2>
+        <div class="icons-habilidades">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-square-js"></i>
+            <i class="fa-brands fa-react"></i>
+            <i class="fa-brands fa-bootstrap"></i>
+        </div>
+    </section>
+        
+    <section  class="pg-projetos">
+        <h2 id="pg-projetos" >Projetos</h2>
+
+        <div class="cont-projetos">
+            <div data-abre-modal="#modal-exemplo-1" class="item">
+                <p>Share</p>
+                <img src="/img/share.png" alt="">
+                    <div class="icons-pj">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-php"></i>
+                    </div>
+            </div>
+
+            <div data-abre-modal="#modal-exemplo-2" id="open-modal" class="item">
+                <p>Nova Zelândia</p>
+                <img src="/img/novazelandia.png" alt="">
+                    <div class="icons-pj">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-square-js"></i>
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </div>
+            </div>
+
+            <div data-abre-modal="#modal-exemplo-3" id="open-modal" class="item">
+                <p>Artes</p>
+                <img src="/img/artes.png" alt="">
+                    <div class="icons-pj">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+            </div>
+        </div>
+
+<!-- MODAL -->
+
+        <div id="modal-exemplo-1" class="modal">
+            <h2>Share</h2>
+            <div class="corpo-modal">
+                <div class="img-modal">
+                    <div class="img-modal2">
+                        <img src="img/share.png" alt="">
+                    </div>
+                </div>
+                <h4>Sobre:</h4>
+                <p>
+                Um site de trocas de livros , desenvolvido para projeto de finalização
+                de curso, nesse trabalho me aprofundei mais no CSS e também PHP, aprendi a lidar
+                com prazos, a gerenciar pequenas equipes, utiliza o Git para compartilhamento de
+                arquivos e a deixar um site online e utilizável. (HTML, CSS, e PHP).
+                </p>
+
+                <h4>Tecnologias: </h4>
+                <div class="icons-modal">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-php"></i>
+                </div>
+                
+                <h4>Links: </h4>
+                <div class="links-modal">
+                    <a href=""><i class="fa-solid fa-link"></i>Link</a>
+                    <a href=""><i class="fa-brands fa-square-github"></i>GitHub</a>
+                </div>
+
+            </div>
+            <span class="fechar-modal"><i class="fa-solid fa-x"></i></span>
+        </div>
+
+        <div id="modal-exemplo-2" class="modal">
+            <h2>Nova Zelândia</h2>
+            <div class="corpo-modal">
+                <div class="img-modal">
+                    <div class="img-modal2">
+                        <img src="img/novazelandia.png" alt="">
+                    </div>
+                </div>
+                <h4>Sobre:</h4>
+                <p>
+                    Um site onde sobre a história do país (Nova Zelândia), com
+                    algumas curiosidades e suas belas paisagens, nesse projeto eu aprendi
+                    principalmente a utilizar o JavaScript para o Front-End, e a utilizar o framework
+                    Bootstrap (HTML, CSS (Bootstrap), JavaScript).
+                </p>
+
+                <h4>Tecnologias: </h4>
+                <div class="icons-modal">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-square-js"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                </div>
+                
+                <h4>Links: </h4>
+                <div class="links-modal">
+                    <a href=""><i class="fa-solid fa-link"></i>Link</a>
+                    <a href=""><i class="fa-brands fa-square-github"></i>GitHub</a>
+                </div>
+
+            </div>
+            <span class="fechar-modal"><i class="fa-solid fa-x"></i></span>
+        </div>
+
+        <div id="modal-exemplo-3" class="modal">
+            <h2>Artes</h2>
+            <div class="corpo-modal">
+                <div class="img-modal">
+                    <div class="img-modal2">
+                        <img src="img/artes.png" alt="">
+                    </div>
+                </div>
+                <h4>Sobre:</h4>
+                <p>
+                    Um projeto onde consistia em fazer artes, é um site onde apresentaria elas em uma página inicial, e uma página individual para cada uma delas, nesse projeto utilizei (HTML,CSS) e aprimorei a responsividade.
+                </p>
+
+                <h4>Tecnologias: </h4>
+                <div class="icons-modal">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                </div>
+                
+                <h4>Links: </h4>
+                <div class="links-modal">
+                    <a href=""><i class="fa-solid fa-link"></i>Link</a>
+                    <a href=""><i class="fa-brands fa-square-github"></i>GitHub</a>
+                </div>
+
+            </div>
+            <span class="fechar-modal"><i class="fa-solid fa-x"></i></span>
+        </div>
+
+        <div id="mascara"></div>
+    </section>
+
+    
+
+    <footer>
+        <p>©2023| Todos os direitos reservados. Política de Privacidade | Criado por Denner Moraes</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
